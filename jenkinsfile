@@ -41,7 +41,6 @@ pipeline {
         stage('deploy'){
             steps{
                 echo "Deploy into tomcat"
-                build 'deploy-war-from-jenkins-to-tomcat'
             }
         }
     }
